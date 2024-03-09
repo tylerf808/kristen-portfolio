@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./images/white-brick-wall.jpg');
+}
+
+h1,
+h2,
+h3 {
+    font-family: Sans-serif;
+}
+
+#nav-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.766);
+    width: 100%;
+    height: auto;
+}
+
+#link-container {
+    margin-right: 3rem;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 2rem;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+}
+
+#banner-title {
+    color: white;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#banner-subtitle {
+    color: white;
+    font-size: 1rem;
+}
+
+#home-headshot-container {
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+}
+
+#home-headshot {
+    box-shadow: 0rem 0rem 1rem 0rem;
+}
+
+#headshot-title {
+    color: rgb(20, 20, 20);
+}
+
+#about-me-link {
+    border: .1rem solid black;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#about-me-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.573);
+    padding: 2rem;
+    height: 100vh;
+}
+
+#about-me-paragraph {
+    width: 30%;
+    color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
